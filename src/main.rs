@@ -19,7 +19,7 @@ fn main() {
 
         // call the stdin() function of the io library
         io::stdin()
-            // read_line is a function that takes in a reference to a valible
+            // read_line is a function that takes in a reference to a variable
             // that stores the user stdin
             .read_line(&mut guess)
             // expect will catch a "Result" or enum the Result will either be
